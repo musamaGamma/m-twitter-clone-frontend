@@ -66,7 +66,7 @@ const MessagesPage = ({history}) => {
             </div>
 
             <div>
-                <div className={styles.empty}></div>
+                {/* <div className={styles.empty}></div> */}
                     <ChatMessage />
                 </div>
             <FooterNav />

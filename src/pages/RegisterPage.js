@@ -35,7 +35,7 @@ const RegisterPage = ({history}) => {
     if(userInfo) {
       history.push("/")
     }
-  }, [userInfo]);
+  }, [userInfo], history);
 
   
   const validateName = () => {
@@ -69,7 +69,7 @@ const RegisterPage = ({history}) => {
     const valid = re.test(String(email).toLowerCase());
 
     setTimeout(()=> {
-      if(email == "") return
+      if(email === "") return
       if (!valid) {
         setEmailErr(true);
         setEmailErrMsg("Please enter a valid email");

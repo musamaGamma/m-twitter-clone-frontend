@@ -31,7 +31,7 @@ const TweetFormPage = ({history}) => {
      if(!userInfo) {
          history.push("/login")
      }
-    }, [])
+    }, [history, userInfo])
 
     useEffect(()=> {
         if(success) {

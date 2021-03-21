@@ -64,10 +64,7 @@ const Sidebar = ({open, toggleNav, profile}) => {
             </Link>
             </div>
             
-            <div className={styles.follow}>
-        <Typography variant="body2"><Typography variant="h2">0</Typography>  Following</Typography>
-        <Typography variant="body2"><Typography variant="h2">0</Typography>  Followers</Typography>
-    </div>
+          <Divider />
      <List className={styles.list}>
        {itemsList.map(({text, icon}, i)=> (<ListItem key={i}>
 

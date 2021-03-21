@@ -25,7 +25,7 @@ const SearchPage = ({history}) => {
      if(!userInfo) {
          history.push("/login")
      }
-    }, [])
+    }, [history, userInfo])
 
     useEffect(()=> {
      document.title = "Explore /Twitter"

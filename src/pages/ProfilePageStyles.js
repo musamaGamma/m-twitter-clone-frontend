@@ -22,7 +22,7 @@ export default makeStyles(()=> ({
 
         '& .MuiTypography-h1' : {
             fontSize: "1.2rem",
-            fontWeight: '800',
+            fontWeight: '600',
             marginTop: ".5rem"
         },
         '& .MuiTypography-body2' : {
@@ -83,11 +83,11 @@ transform: 'translateY(50%)',
    
     profileInfo : {
         margin: "1.2rem",
-        marginTop: "3rem",
+        marginTop: "3.5rem",
         
         '& .MuiTypography-h1' : {
-            fontSize: "1.2rem",
-            fontWeight: '800',
+            fontSize: "1.1rem",
+            fontWeight: '600',
             marginTop: ".5rem"
         },
         '& .username' : {

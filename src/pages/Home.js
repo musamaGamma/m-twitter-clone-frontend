@@ -34,11 +34,12 @@ const Home = ({history}) => {
     
     useEffect(()=> {
         document.title = "Home / Twitter"
-        if(errorProfile) {
+        if(errorProfile === "jwt malformed") {
             dispatch(logout())
             history.push("/login")
         }
         if(!userInfo) {
+            dispatch(logout())
           history.push("/login")
         }
         else {

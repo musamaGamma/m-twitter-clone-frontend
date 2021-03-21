@@ -54,14 +54,18 @@ const FooterNav = () => {
         <IconButton>
           <Link to="/notifications">
             {path == "/notifications" ? (
-              <NotificationsSharp
+              !count && (
+                <NotificationsSharp
                 className={styles.active}
               />
+              )
+             
             ) : (
-              <Badge badgeContent={count} className={styles.badge}>
+              count? (<Badge badgeContent={count} className={styles.badge}>
                 
                 <NotificationsOutlined />
-              </Badge>
+              </Badge>) : <NotificationsOutlined />
+              
             )}
           </Link>
         </IconButton>

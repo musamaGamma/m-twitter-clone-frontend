@@ -17,12 +17,14 @@ export default makeStyles(()=> ({
         '& .MuiSvgIcon-root': {
             width: "2.8rem",
             fontSize: "2rem",
-            fill: "rgb(91, 112, 131)"
+            fill: "rgb(91, 112, 131)",
+            opacity: ".8"
         },
         
     },
     active: {
         fill: "rgba(29,161,242,1.00) !important",
+        opacity: "1"
           
        
     },

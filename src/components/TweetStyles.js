@@ -32,6 +32,7 @@ export default makeStyles(()=> ({
             whiteSpace: "nowrap",
             width: "fit-content",
             textAlign: "left",
+            fontWeight: "600",
             textTransform: "capitalize"
         },
         "& .MuiTypography-body2": {
@@ -55,18 +56,20 @@ width: "21rem"
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
-        height: "4rem"
+        height: "4rem",
+        opacity:  ".8"
     },
     
     delete: {
         color: "rgb(224, 36, 94)",
         "& .MuiSvgIcon-root": {
-            color: "rgb(224, 36, 94)"
+            color: "rgb(224, 36, 94)",
         }
     },
     retweet: {
         "& .MuiSvgIcon-root": {
-            color: "rgb(23, 191, 99)"
+            color: "rgb(23, 191, 99)",
+           
         }
         
     },

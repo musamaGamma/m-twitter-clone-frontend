@@ -10,7 +10,7 @@ const NotificationMessage = () => {
           padding: "1rem",
           backgroundColor: "rgb(235, 238, 240)",
           border: "1px solid #eee",
-          animation: `$change 2s linear`,
+          animation: `$change 1s linear`,
           animationFillMode: "forwards",
         },
         icon: {

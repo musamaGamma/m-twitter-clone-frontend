@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .app {
   display: grid;
+  font-family: 'Roboto', sans-serif !important;
   /* place-items: center;
   height: 100vh; */
-  color: rgb(19, 144, 216)
+  color: rgb(123, 142, 158);
+  
 }
